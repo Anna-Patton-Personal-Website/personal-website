@@ -143,21 +143,18 @@ section:nth-child(odd){
 
 /* END OF ONE-PAGE SCROLL STYLING */
 
-.intro_text {
-    font-size: 30px;
+/* HOME/HERO PAGE INFO */
+.name_color{
+    color: #4ca1af;
+}
+
+.intro_text{
+    font-size: 45px;
+    margin-top: 70px;
+    padding: 30px;
     text-align: center;
-    font-weight: bold;
-    font-family: "Trebuchet MS", sans-serif;
-    text-shadow: 3px 3px grey;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    color: #242424;
 }
-
-.temp_text {
-    font-size: 15px;
-    font-family: sans-serif;
-    margin: 15px;
-}
-
-.temp_images {
-    margin: 15px;
-    object-fit: cover;
-}
+/* END OF HOME/HERO INFO */
