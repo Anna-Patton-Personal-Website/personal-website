@@ -124,6 +124,25 @@ a{
 
 /* END OF NAVBAR STYLING */
 
+/* ONE-PAGE SCROLL STYLING */
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    font-size: 40px;
+    color: #242424;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+section:nth-child(odd){
+    background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
+}
+
+/* END OF ONE-PAGE SCROLL STYLING */
+
 .intro_text {
     font-size: 30px;
     text-align: center;
