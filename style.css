@@ -158,3 +158,45 @@ section:nth-child(odd){
     color: #242424;
 }
 /* END OF HOME/HERO INFO */
+
+/* FLEXBOX STYLING FOR ABOUT PAGE */
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.about-header {
+    text-align: center;
+    width: 100%;
+}
+
+.about-text {
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    padding: 40px;
+    border: 2px solid #323232;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #323232;
+}
+
+p {
+    font-size: .5em;
+}
+
+/* REMEMBER THAT ALL PICTURES WILL BE AFFECTED BY THIS IMG STYLING - I CAN STYLE IMG SEPARATELY IF I ADD A CLASS TO EACH IMAGE */
+img {
+    border: 2px solid #323232;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover; 
+}
