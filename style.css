@@ -226,3 +226,48 @@ img {
 .portfolio-header {
     margin-top: 30px;
 }
+/* END OF PORTFOLIO STYLING */
+
+/* CONTACT PAGE/FORM STYLING */
+
+.contact-form {
+    border-radius: 5px;
+    background-color: #4ca1af;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #323232;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #fff;
+    border: 2px solid #323232;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+input[type=submit]:hover {
+    background-color: #d3d3d3;
+}
+
+.contact-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_text {
+    text-align: center;
+    padding: 15px;
+    font-size: 70px;
+}
+/* END OF CONTACT FORM STYLING */
