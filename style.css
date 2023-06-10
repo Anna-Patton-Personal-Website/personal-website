@@ -11,10 +11,11 @@ body{
 /* NAVBAR STYLING */
 header{
     position: fixed;
-    background-color: #323232;
+    background: rgba(0,0,0,0.2);
     top: 0;
     width: 100%;
     font-family: 'Poppins', sans-serif;
+    border-radius: 5px; 
 }
 
 li{
