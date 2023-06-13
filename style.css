@@ -330,6 +330,7 @@ input[type=text], textarea {
     margin-bottom: 16px;
     resize: vertical;
     background-color: #2e2e2e;
+    color: #FFF;
 }
 
 input[type=submit] {
