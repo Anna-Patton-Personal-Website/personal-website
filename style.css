@@ -11,11 +11,10 @@ body{
 /* NAVBAR STYLING */
 header{
     position: fixed;
-    background: rgba(0,0,0,0.2);
+    background-color: #181818;  
     top: 0;
     width: 100%;
-    font-family: 'DM Serif Display', serif;
-    border-radius: 5px; 
+    font-family: 'Public Sans', sans-serif;
 }
 
 li{
@@ -35,11 +34,16 @@ li{
 .logo{
     font-size: 1.5rem;
     font-weight: 600;
-    color: #fff;
+    color: #FFF;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    color: #acd7ce;
 }
 
 a{
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
 }
 
@@ -60,11 +64,11 @@ a{
 }
 
 .nav-link{
-    transition: 0.7s ease;
+    transition: 0.5s ease;
 }
 
 .nav-link:hover{
-    color: cyan;
+    color: #acd7ce;
 }
 
 .hamburger{
@@ -77,9 +81,9 @@ a{
     width: 25px;
     height: 3px;
     margin: 5px auto;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease-in-out;
-    background-color: #fff;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease-in-out;
+    background-color: #FFF;
 }
 
 /* MEDIA QUERY FOR NAVBAR HAMBURGER MENU */
@@ -109,7 +113,7 @@ a{
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: #323232;
+        background-color: #181818;
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -123,22 +127,48 @@ a{
     }
 }
 
-/* END OF NAVBAR STYLING */
-
 /* ONE-PAGE SCROLL STYLING */
 section{
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fff;
+    background: #212121;
     font-size: 40px;
-    color: #242424;
+    /* this changes contact form text */
+    color: #FFF;
     font-weight: 700;
 }
 
 section:nth-child(odd){
-    background-image: linear-gradient(45deg, #4ca1af, #c4e0e5);
+    background: #212121;
+}
+
+/* RECENT = HERO PAGE INFO */
+#home {
+    background-image: linear-gradient(to top,#212121, 90%, #acd7ce);
+}
+
+    .hero_name {
+        color: #acd7ce; 
+        font-family: 'DM Serif Display', serif; 
+        font-size: 50px;
+    }
+
+.intro_text { 
+    font-size: 50px; 
+    margin-top: 70px; 
+    padding: 30px; 
+    text-align: center; 
+    font-weight: 700;
+    font-family: 'DM Serif Display', serif; 
+    color: #818181;  
+} 
+
+    /* RECENT = ICON STYLING  */
+.header_icons {
+    display: flex;
+    gap: 2rem;
 }
 
 /* RECENT = SKILLS SECTION STYLING */
@@ -198,33 +228,6 @@ section:nth-child(odd){
 
 /* END OF ONE-PAGE SCROLL STYLING */
 
-/* RECENT = HERO PAGE INFO */
-#home {
-    background-image: linear-gradient(to top,#212121, 90%, #acd7ce);
-}
-
-    .hero_name {
-        color: #acd7ce; 
-        font-family: 'DM Serif Display', serif; 
-        font-size: 50px;
-    }
-
-.intro_text { 
-    font-size: 50px; 
-    margin-top: 70px; 
-    padding: 30px; 
-    text-align: center; 
-    font-weight: 700;
-    font-family: 'DM Serif Display', serif; 
-    color: #818181;  
-} 
-
-    /* RECENT = ICON STYLING  */
-.header_icons {
-    display: flex;
-    gap: 2rem;
-}
-
 /* RECENT = ABOUT STYLING (GRID) */
 
 .about {
@@ -271,7 +274,14 @@ section:nth-child(odd){
     background-color: #5e7f80; 
 }
 
-/* FLEXBOX FOR PORTFOLIO STYLING */
+.pic img {
+border-radius: 10px;
+width: 300px;
+height: 300px;
+object-fit: cover; 
+}
+
+/* PORTFOLIO STYLING */
 
 #portfolio {
     width: 100%;
@@ -283,13 +293,12 @@ section:nth-child(odd){
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 30px;
+    gap: 2em;
 }
 
 .pic {
     width: 300px;
     height: 300px;
-    border: 2px solid #323232;
     border-radius: 10px;
 }
 
@@ -298,6 +307,7 @@ section:nth-child(odd){
     font-family: 'DM Serif Display', serif;
     /* NEW = CHANGED FONT-SIZE TO 45PX */
     font-size: 45px;
+    color: #FFF;
 }
 
 /* CONTACT STYLING */
@@ -338,7 +348,7 @@ input[type=submit]:hover {
 }
 
 .contact_text {
-    text-align: center;
+    text-align: left;
     padding: 15px;
     font-size: 45px;
     font-family: 'DM Serif Display', serif;

@@ -5,7 +5,6 @@ console.log(message); //used console.log to display message in JS
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
-// IDK WHY LINE 5 ISN'T BEING READ
 hamburger.addEventListener("click", () => {
         hamburger.classList.toggle("active");
         navMenu.classList.toggle("active");
