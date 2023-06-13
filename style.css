@@ -198,21 +198,32 @@ section:nth-child(odd){
 
 /* END OF ONE-PAGE SCROLL STYLING */
 
-/* HOME/HERO PAGE INFO */
-.name_color{
-    color: #4ca1af;
+/* RECENT = HERO PAGE INFO */
+#home {
+    background-image: linear-gradient(to top,#212121, 90%, #acd7ce);
 }
 
-.intro_text{
-    font-size: 45px;
-    margin-top: 70px;
-    padding: 30px;
-    text-align: center;
+    .hero_name {
+        color: #acd7ce; 
+        font-family: 'DM Serif Display', serif; 
+        font-size: 50px;
+    }
+
+.intro_text { 
+    font-size: 50px; 
+    margin-top: 70px; 
+    padding: 30px; 
+    text-align: center; 
     font-weight: 700;
-    font-family: 'DM Serif Display', serif;
-    color: #242424;
+    font-family: 'DM Serif Display', serif; 
+    color: #818181;  
+} 
+
+    /* RECENT = ICON STYLING  */
+.header_icons {
+    display: flex;
+    gap: 2rem;
 }
-/* END OF HOME/HERO INFO */
 
 /* FLEXBOX STYLING FOR ABOUT PAGE */
 
