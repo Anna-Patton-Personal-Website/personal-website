@@ -299,13 +299,12 @@ section:nth-child(odd){
     /* NEW = CHANGED FONT-SIZE TO 45PX */
     font-size: 45px;
 }
-/* END OF PORTFOLIO STYLING */
 
-/* CONTACT PAGE/FORM STYLING */
+/* CONTACT STYLING */
 
 .contact-form {
     border-radius: 5px;
-    background-color: #4ca1af;
+    background-color: #2e2e2e;
     padding: 20px;
     font-family: 'Public Sans', sans-serif;
     font-size: 20px;
@@ -314,23 +313,23 @@ section:nth-child(odd){
 input[type=text], textarea {
     width: 100%;
     padding: 12px;
-    border: 2px solid #323232;
+    border: 1.5px solid #818181;
     border-radius: 5px;
     box-sizing: border-box;
-    margin-top: 6px;
+    margin-top: 16px;
     margin-bottom: 16px;
     resize: vertical;
+    background-color: #2e2e2e;
 }
 
 input[type=submit] {
-    background-color: #fff;
-    border: 2px solid #323232;
-    border-radius: 5px;
+    background-color: #acd7ce;
+    border-radius: 8px;
     padding: 8px;
 }
 
 input[type=submit]:hover {
-    background-color: #d3d3d3;
+    background-color: #5e7f80;
 }
 
 .contact-flex {
@@ -343,5 +342,5 @@ input[type=submit]:hover {
     padding: 15px;
     font-size: 45px;
     font-family: 'DM Serif Display', serif;
+    color: #FFF;
 }
-/* END OF CONTACT FORM STYLING */
